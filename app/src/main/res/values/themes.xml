@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. Usando .Light para ignorar o modo escuro do sistema -->
+    <style name="Base.Theme.Fabrica" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.Fabrica" parent="Base.Theme.Fabrica" />
+
+    <!-- Estilo para o texto do menu lateral -->
+    <style name="EstiloMenuLateral">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif-bold</item>
+    </style>
+</resources>

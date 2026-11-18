@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern Blue Palette -->
+    <color name="primary">#0061A4</color>
+    <color name="primaryContainer">#D1E4FF</color>
+    <color name="onPrimaryContainer">#001D36</color>
+    
+    <color name="secondary">#535F70</color>
+    <color name="secondaryContainer">#D7E3F7</color>
+    
+    <color name="surface">#FDFBFF</color>
+    <color name="outline">#73777F</color>
+    
+    <color name="card_background">#FFFFFF</color>
+    <color name="background_light">#F8F9FF</color>
+
+    <!-- Semantic Colors -->
+    <color name="success">#2E7D32</color>
+    <color name="error">#B00020</color>
+</resources>

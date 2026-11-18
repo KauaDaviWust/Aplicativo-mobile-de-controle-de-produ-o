@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_Quinzena"
+        android:title="Tabela quinzena" />
+
+    <item
+        android:id="@+id/nav_adicionar_talao"
+        android:title="Adicionar talão" />
+
+    <item
+        android:id="@+id/nav_tipo"
+        android:title="Tipo" />
+
+    <item
+        android:id="@+id/nav_outras_tabelas"
+        android:title="Quinzenas anteriores" />
+
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">fabrica</string>
+    <string name="notifi"></string>
+    <string name="label_modelo">Modelo</string>
+    <string name="label_valor">Valor</string>
+    <string name="label_quantidade">Quantidade</string>
+    <string name="button_adicionar">Adicionar</string>
+    <string name="open">Abrir menu</string>
+    <string name="close">Fechar menu</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

@@ -45,7 +45,25 @@ public class EditarControler extends Pagina{
             tipo.setText(cursor.getString(6), false);
             idSelecionado = cursor.getInt(3);
             modelo.setText(cursor.getString(2));
-            data.setText(java.time.LocalDate.parse(cursor.getString(1)).format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy")));
+            
+            String dataBanco = cursor.getString(1);
+            if (dataBanco != null && !dataBanco.isEmpty()) {
+                try {
+                    SimpleDateFormat dbFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+                    SimpleDateFormat brFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
+                    java.util.Date parsedDate = dbFormat.parse(dataBanco);
+                    if (parsedDate != null) {
+                        data.setText(brFormat.format(parsedDate));
+                    } else {
+                        data.setText(dataBanco);
+                    }
+                } catch (Exception e) {
+                    data.setText(dataBanco);
+                }
+            } else {
+                data.setText("");
+            }
+
             quantidade.setText(cursor.getString(4));
         }
         cursor.close();

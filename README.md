@@ -21,7 +21,7 @@ Aplicativo Android desenvolvido em Java para gerenciamento e controle de produç
 
 1. Clone o repositório em sua máquina:
    ```bash
-   git clone https://github.com/seu-usuario/fabrica.git
+   git clone https://github.com/KauaDaviWust/Aplicativo-mobile-de-controle-de-produ-o.git
    ```
 2. Abra o projeto no **Android Studio**.
 3. Certifique-se de estar utilizando um **Gradle JDK compatível** (Java 17 ou Java 21).
